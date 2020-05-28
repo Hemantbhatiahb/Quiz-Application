@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".CheatActivity">
+
+    <TextView
+        android:id="@+id/warning_text"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Are u sure u want  to see the answer !"/>
+
+    <TextView
+        android:id="@+id/answer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/show_ans_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/show_ans_Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#76FF03"
+        android:text="SHOW ANSWER"
+        android:textColor="#000000"
+        android:textSize="25dp"
+         />
+</RelativeLayout>

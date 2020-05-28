@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">Is India a democratic country?</string>
+    <string name="question2">Is  tiktok  an Indian application?</string>
+    <string name="question3">The real name of akshay kumar is Rajeev Bhatia ?</string>
+    <string name="question4">Does farting reduce the stress of a person?</string>
+    <string name="question5">Taj Mahal was built by Akbar ?</string>
+
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+    <string name="yes">TRUE</string>
+    <string name="no">FALSE</string>
+
+    <string name="score">Score</string>
+
+    <string name="cheat_text">Cheat</string>
+
+
+</resources>
